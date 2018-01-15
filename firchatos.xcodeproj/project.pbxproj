@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6B61BDE200D1CAD0095C991 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B61BDD200D1CAD0095C991 /* DataService.swift */; };
 		A6B6ED53200CEF5600A22F29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B6ED52200CEF5600A22F29 /* AppDelegate.swift */; };
 		A6B6ED55200CEF5600A22F29 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B6ED54200CEF5600A22F29 /* FirstViewController.swift */; };
 		A6B6ED57200CEF5600A22F29 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B6ED56200CEF5600A22F29 /* SecondViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		48BE5D276DD003F1965BE6DE /* Pods_firchatos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firchatos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		698AB69BB7A83D55FBE239A8 /* Pods-firchatos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firchatos.release.xcconfig"; path = "Pods/Target Support Files/Pods-firchatos/Pods-firchatos.release.xcconfig"; sourceTree = "<group>"; };
+		A6B61BDD200D1CAD0095C991 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A6B6ED4F200CEF5600A22F29 /* firchatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firchatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B6ED52200CEF5600A22F29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6B6ED54200CEF5600A22F29 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		A6B6ED6A200CF17400A22F29 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				A6B61BDD200D1CAD0095C991 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				A6B6ED57200CEF5600A22F29 /* SecondViewController.swift in Sources */,
 				A6B6ED53200CEF5600A22F29 /* AppDelegate.swift in Sources */,
 				A6B6ED55200CEF5600A22F29 /* FirstViewController.swift in Sources */,
+				A6B61BDE200D1CAD0095C991 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
