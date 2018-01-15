@@ -13,6 +13,7 @@
 		A6B6ED5A200CEF5600A22F29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B6ED58200CEF5600A22F29 /* Main.storyboard */; };
 		A6B6ED5C200CEF5600A22F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B6ED5B200CEF5600A22F29 /* Assets.xcassets */; };
 		A6B6ED5F200CEF5600A22F29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B6ED5D200CEF5600A22F29 /* LaunchScreen.storyboard */; };
+		A6B6ED6C200CF30E00A22F29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6B6ED6B200CF30E00A22F29 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A6B6ED5B200CEF5600A22F29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6B6ED5E200CEF5600A22F29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6B6ED60200CEF5600A22F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B6ED6B200CF30E00A22F29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,56 @@
 		A6B6ED51200CEF5600A22F29 /* firchatos */ = {
 			isa = PBXGroup;
 			children = (
+				A6B6ED6A200CF17400A22F29 /* Services */,
+				A6B6ED69200CF14A00A22F29 /* Extensions */,
+				A6B6ED68200CEFBA00A22F29 /* Model */,
+				A6B6ED67200CEFB200A22F29 /* View */,
+				A6B6ED66200CEF9700A22F29 /* Controller */,
 				A6B6ED52200CEF5600A22F29 /* AppDelegate.swift */,
-				A6B6ED54200CEF5600A22F29 /* FirstViewController.swift */,
-				A6B6ED56200CEF5600A22F29 /* SecondViewController.swift */,
 				A6B6ED58200CEF5600A22F29 /* Main.storyboard */,
 				A6B6ED5B200CEF5600A22F29 /* Assets.xcassets */,
 				A6B6ED5D200CEF5600A22F29 /* LaunchScreen.storyboard */,
 				A6B6ED60200CEF5600A22F29 /* Info.plist */,
+				A6B6ED6B200CF30E00A22F29 /* GoogleService-Info.plist */,
 			);
 			path = firchatos;
+			sourceTree = "<group>";
+		};
+		A6B6ED66200CEF9700A22F29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6B6ED54200CEF5600A22F29 /* FirstViewController.swift */,
+				A6B6ED56200CEF5600A22F29 /* SecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A6B6ED67200CEFB200A22F29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6B6ED68200CEFBA00A22F29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6B6ED69200CF14A00A22F29 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A6B6ED6A200CF17400A22F29 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B6ED5F200CEF5600A22F29 /* LaunchScreen.storyboard in Resources */,
+				A6B6ED6C200CF30E00A22F29 /* GoogleService-Info.plist in Resources */,
 				A6B6ED5C200CEF5600A22F29 /* Assets.xcassets in Resources */,
 				A6B6ED5A200CEF5600A22F29 /* Main.storyboard in Resources */,
 			);
