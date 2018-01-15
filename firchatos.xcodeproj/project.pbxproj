@@ -14,9 +14,12 @@
 		A6B6ED5C200CEF5600A22F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B6ED5B200CEF5600A22F29 /* Assets.xcassets */; };
 		A6B6ED5F200CEF5600A22F29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B6ED5D200CEF5600A22F29 /* LaunchScreen.storyboard */; };
 		A6B6ED6C200CF30E00A22F29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6B6ED6B200CF30E00A22F29 /* GoogleService-Info.plist */; };
+		B8F6AE90EA898EF22AB2180D /* Pods_firchatos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BE5D276DD003F1965BE6DE /* Pods_firchatos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48BE5D276DD003F1965BE6DE /* Pods_firchatos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firchatos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		698AB69BB7A83D55FBE239A8 /* Pods-firchatos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firchatos.release.xcconfig"; path = "Pods/Target Support Files/Pods-firchatos/Pods-firchatos.release.xcconfig"; sourceTree = "<group>"; };
 		A6B6ED4F200CEF5600A22F29 /* firchatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firchatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B6ED52200CEF5600A22F29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6B6ED54200CEF5600A22F29 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		A6B6ED5E200CEF5600A22F29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6B6ED60200CEF5600A22F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6B6ED6B200CF30E00A22F29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F65EE01B0181D13D4A4A94AE /* Pods-firchatos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firchatos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firchatos/Pods-firchatos.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F6AE90EA898EF22AB2180D /* Pods_firchatos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95A7D2122694DA7FA10EE9A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F65EE01B0181D13D4A4A94AE /* Pods-firchatos.debug.xcconfig */,
+				698AB69BB7A83D55FBE239A8 /* Pods-firchatos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A6B6ED46200CEF5600A22F29 = {
 			isa = PBXGroup;
 			children = (
 				A6B6ED51200CEF5600A22F29 /* firchatos */,
 				A6B6ED50200CEF5600A22F29 /* Products */,
+				95A7D2122694DA7FA10EE9A2 /* Pods */,
+				AEFF7CD58FCBA8D28C4267FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +126,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		AEFF7CD58FCBA8D28C4267FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48BE5D276DD003F1965BE6DE /* Pods_firchatos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6B6ED63200CEF5600A22F29 /* Build configuration list for PBXNativeTarget "firchatos" */;
 			buildPhases = (
+				37C046CAB676274456CAAC4B /* [CP] Check Pods Manifest.lock */,
 				A6B6ED4B200CEF5600A22F29 /* Sources */,
 				A6B6ED4C200CEF5600A22F29 /* Frameworks */,
 				A6B6ED4D200CEF5600A22F29 /* Resources */,
+				B3160C5EFA316C4B0BE3CEFC /* [CP] Embed Pods Frameworks */,
+				0A07342BE747F6B25EBCD687 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,6 +204,66 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A07342BE747F6B25EBCD687 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firchatos/Pods-firchatos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37C046CAB676274456CAAC4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firchatos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3160C5EFA316C4B0BE3CEFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-firchatos/Pods-firchatos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firchatos/Pods-firchatos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A6B6ED4B200CEF5600A22F29 /* Sources */ = {
@@ -320,6 +407,7 @@
 		};
 		A6B6ED64200CEF5600A22F29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65EE01B0181D13D4A4A94AE /* Pods-firchatos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -335,6 +423,7 @@
 		};
 		A6B6ED65200CEF5600A22F29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698AB69BB7A83D55FBE239A8 /* Pods-firchatos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
