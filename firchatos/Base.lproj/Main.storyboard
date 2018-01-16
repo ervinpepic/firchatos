@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UPJ-30-iE5">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -90,10 +90,10 @@
             </objects>
             <point key="canvasLocation" x="1767" y="347"/>
         </scene>
-        <!--View Controller-->
+        <!--Auth Vc-->
         <scene sceneID="p7X-Ml-Ayv">
             <objects>
-                <viewController id="UPJ-30-iE5" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AuthVc" id="UPJ-30-iE5" customClass="AuthVc" customModule="firchatos" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="idE-0N-Bx6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,7 +110,7 @@
                                 <color key="textColor" red="0.19745551219999999" green="0.57014973960000004" blue="0.51131184900000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HdE-ot-vfg">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HdE-ot-vfg" customClass="ShaddowView" customModule="firchatos" customModuleProvider="target">
                                 <rect key="frame" x="16" y="157" width="343" height="353"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Juy-C2-uMz">
@@ -189,10 +189,10 @@
             </objects>
             <point key="canvasLocation" x="-858.39999999999998" y="-13.043478260869566"/>
         </scene>
-        <!--View Controller-->
+        <!--Login Vc-->
         <scene sceneID="Hzd-4Y-re5">
             <objects>
-                <viewController id="f2d-qd-0Qm" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginVc" id="f2d-qd-0Qm" customClass="LoginVc" customModule="firchatos" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pUV-nc-CgY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -224,7 +224,7 @@
                                         <color key="textColor" red="0.19745551219999999" green="0.57014973960000004" blue="0.51131184900000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5BF-OS-wdS">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5BF-OS-wdS" customClass="InsetTextField" customModule="firchatos" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="47" width="343" height="45"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                         <constraints>
@@ -234,7 +234,7 @@
                                         <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jzN-Cv-Vpw">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jzN-Cv-Vpw" customClass="InsetTextField" customModule="firchatos" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="112" width="343" height="45"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                         <constraints>
