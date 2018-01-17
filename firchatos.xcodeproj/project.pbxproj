@@ -12,8 +12,8 @@
 		A64B618F200E495B0033F62B /* ShaddowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64B618E200E495B0033F62B /* ShaddowView.swift */; };
 		A6B61BDE200D1CAD0095C991 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B61BDD200D1CAD0095C991 /* DataService.swift */; };
 		A6B6ED53200CEF5600A22F29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B6ED52200CEF5600A22F29 /* AppDelegate.swift */; };
-		A6B6ED55200CEF5600A22F29 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B6ED54200CEF5600A22F29 /* FirstViewController.swift */; };
-		A6B6ED57200CEF5600A22F29 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B6ED56200CEF5600A22F29 /* SecondViewController.swift */; };
+		A6B6ED55200CEF5600A22F29 /* FeedVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B6ED54200CEF5600A22F29 /* FeedVc.swift */; };
+		A6B6ED57200CEF5600A22F29 /* GroupsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B6ED56200CEF5600A22F29 /* GroupsVc.swift */; };
 		A6B6ED5A200CEF5600A22F29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B6ED58200CEF5600A22F29 /* Main.storyboard */; };
 		A6B6ED5C200CEF5600A22F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B6ED5B200CEF5600A22F29 /* Assets.xcassets */; };
 		A6B6ED5F200CEF5600A22F29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B6ED5D200CEF5600A22F29 /* LaunchScreen.storyboard */; };
@@ -32,8 +32,8 @@
 		A6B61BDD200D1CAD0095C991 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A6B6ED4F200CEF5600A22F29 /* firchatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firchatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B6ED52200CEF5600A22F29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6B6ED54200CEF5600A22F29 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A6B6ED56200CEF5600A22F29 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A6B6ED54200CEF5600A22F29 /* FeedVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVc.swift; sourceTree = "<group>"; };
+		A6B6ED56200CEF5600A22F29 /* GroupsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVc.swift; sourceTree = "<group>"; };
 		A6B6ED59200CEF5600A22F29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6B6ED5B200CEF5600A22F29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6B6ED5E200CEF5600A22F29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,8 +104,8 @@
 		A6B6ED66200CEF9700A22F29 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A6B6ED54200CEF5600A22F29 /* FirstViewController.swift */,
-				A6B6ED56200CEF5600A22F29 /* SecondViewController.swift */,
+				A6B6ED54200CEF5600A22F29 /* FeedVc.swift */,
+				A6B6ED56200CEF5600A22F29 /* GroupsVc.swift */,
 				A6DED0B5200E43E6009DF14D /* AuthVc.swift */,
 				A6DED0B7200E441C009DF14D /* LoginVc.swift */,
 			);
@@ -290,11 +290,11 @@
 			files = (
 				A6DED0B6200E43E6009DF14D /* AuthVc.swift in Sources */,
 				A64B618F200E495B0033F62B /* ShaddowView.swift in Sources */,
-				A6B6ED57200CEF5600A22F29 /* SecondViewController.swift in Sources */,
+				A6B6ED57200CEF5600A22F29 /* GroupsVc.swift in Sources */,
 				A60F1461200EAB110083115C /* AuthService.swift in Sources */,
 				A6DED0B8200E441C009DF14D /* LoginVc.swift in Sources */,
 				A6B6ED53200CEF5600A22F29 /* AppDelegate.swift in Sources */,
-				A6B6ED55200CEF5600A22F29 /* FirstViewController.swift in Sources */,
+				A6B6ED55200CEF5600A22F29 /* FeedVc.swift in Sources */,
 				A64B618D200E46C70033F62B /* InsetTextField.swift in Sources */,
 				A6B61BDE200D1CAD0095C991 /* DataService.swift in Sources */,
 			);
