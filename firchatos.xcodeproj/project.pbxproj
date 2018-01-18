@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A60F1461200EAB110083115C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F1460200EAB110083115C /* AuthService.swift */; };
+		A637C97F20113A3F00E9A8A4 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A637C97E20113A3F00E9A8A4 /* FeedCell.swift */; };
 		A64B618D200E46C70033F62B /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64B618C200E46C70033F62B /* InsetTextField.swift */; };
 		A64B618F200E495B0033F62B /* ShaddowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64B618E200E495B0033F62B /* ShaddowView.swift */; };
 		A6B61BDE200D1CAD0095C991 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B61BDD200D1CAD0095C991 /* DataService.swift */; };
@@ -30,6 +31,7 @@
 		48BE5D276DD003F1965BE6DE /* Pods_firchatos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firchatos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		698AB69BB7A83D55FBE239A8 /* Pods-firchatos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firchatos.release.xcconfig"; path = "Pods/Target Support Files/Pods-firchatos/Pods-firchatos.release.xcconfig"; sourceTree = "<group>"; };
 		A60F1460200EAB110083115C /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		A637C97E20113A3F00E9A8A4 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		A64B618C200E46C70033F62B /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		A64B618E200E495B0033F62B /* ShaddowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaddowView.swift; sourceTree = "<group>"; };
 		A6B61BDD200D1CAD0095C991 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			children = (
 				A64B618C200E46C70033F62B /* InsetTextField.swift */,
 				A64B618E200E495B0033F62B /* ShaddowView.swift */,
+				A637C97E20113A3F00E9A8A4 /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6DF78EE200FC7B200493E3F /* MeVc.swift in Sources */,
+				A637C97F20113A3F00E9A8A4 /* FeedCell.swift in Sources */,
 				A6DED0B6200E43E6009DF14D /* AuthVc.swift in Sources */,
 				A64B618F200E495B0033F62B /* ShaddowView.swift in Sources */,
 				A6B6ED57200CEF5600A22F29 /* GroupsVc.swift in Sources */,
