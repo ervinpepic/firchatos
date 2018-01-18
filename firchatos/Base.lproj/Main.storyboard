@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wQI-oX-3xs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9pv-A4-QxB">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -110,11 +110,11 @@
                                         </constraints>
                                         <state key="normal" image="close"/>
                                         <connections>
-                                            <action selector="closeButton:" destination="wQI-oX-3xs" eventType="touchUpInside" id="Hqo-8N-Ya8"/>
+                                            <action selector="closeButton:" destination="wQI-oX-3xs" eventType="touchUpInside" id="1eF-as-Jhl"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Post create" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GYo-bL-p9p">
-                                        <rect key="frame" x="128" y="35" width="119.5" height="21"/>
+                                        <rect key="frame" x="128" y="35" width="120" height="21"/>
                                         <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
                                         <color key="textColor" red="0.19745551219999999" green="0.57014973960000004" blue="0.51131184900000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -125,8 +125,9 @@
                                     <constraint firstItem="GYo-bL-p9p" firstAttribute="top" secondItem="YjM-5c-fFK" secondAttribute="top" constant="35" id="7KV-Ij-k4d"/>
                                     <constraint firstAttribute="bottom" secondItem="dPk-tf-gOe" secondAttribute="bottom" constant="10" id="8bJ-Vr-t13"/>
                                     <constraint firstItem="dPk-tf-gOe" firstAttribute="top" secondItem="YjM-5c-fFK" secondAttribute="top" constant="30" id="KUB-VJ-dHT"/>
+                                    <constraint firstAttribute="trailing" secondItem="GYo-bL-p9p" secondAttribute="trailing" constant="127.5" id="VvE-dh-O8q"/>
                                     <constraint firstItem="dPk-tf-gOe" firstAttribute="leading" secondItem="YjM-5c-fFK" secondAttribute="leading" constant="20" id="bqe-6I-qfW"/>
-                                    <constraint firstItem="GYo-bL-p9p" firstAttribute="leading" secondItem="YjM-5c-fFK" secondAttribute="leading" constant="128" id="eC0-8d-mK7"/>
+                                    <constraint firstItem="GYo-bL-p9p" firstAttribute="leading" relation="lessThanOrEqual" secondItem="YjM-5c-fFK" secondAttribute="leading" constant="128" id="eC0-8d-mK7"/>
                                     <constraint firstAttribute="height" constant="70" id="hhk-sf-Evh"/>
                                 </constraints>
                             </view>
@@ -140,17 +141,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Say something" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FPG-Qj-ElI">
-                                <rect key="frame" x="16" y="154" width="343" height="455"/>
+                                <rect key="frame" x="16" y="154" width="343" height="468"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" red="0.19745551219999999" green="0.57014973960000004" blue="0.51131184900000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Igz-6k-rGg">
-                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <rect key="frame" x="0.0" y="638" width="375" height="29"/>
                                 <color key="backgroundColor" red="0.19745551219999999" green="0.57014973960000004" blue="0.51131184900000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="OWQ-qQ-L8x"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="42" id="30K-J6-yRO"/>
                                 </constraints>
                                 <state key="normal" title="  Send" image="send">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -169,22 +170,23 @@
                         </subviews>
                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Igz-6k-rGg" firstAttribute="leading" secondItem="92U-ch-Nfl" secondAttribute="leading" id="63r-89-gH0"/>
                             <constraint firstItem="92U-ch-Nfl" firstAttribute="trailing" secondItem="Img-iB-QPC" secondAttribute="trailing" constant="16" id="8aE-9Q-hWi"/>
-                            <constraint firstItem="92U-ch-Nfl" firstAttribute="trailing" secondItem="Igz-6k-rGg" secondAttribute="trailing" id="DFd-Kx-dtc"/>
+                            <constraint firstItem="Igz-6k-rGg" firstAttribute="top" relation="greaterThanOrEqual" secondItem="FPG-Qj-ElI" secondAttribute="bottom" constant="16" id="BRh-Lt-yAh"/>
                             <constraint firstItem="FPG-Qj-ElI" firstAttribute="trailing" secondItem="Img-iB-QPC" secondAttribute="trailing" id="HPC-st-cLP"/>
-                            <constraint firstItem="92U-ch-Nfl" firstAttribute="bottom" secondItem="Igz-6k-rGg" secondAttribute="bottom" id="JRH-Ab-u5k"/>
+                            <constraint firstItem="Igz-6k-rGg" firstAttribute="leading" secondItem="92U-ch-Nfl" secondAttribute="leading" id="Lig-7Q-TiH"/>
                             <constraint firstItem="FPG-Qj-ElI" firstAttribute="top" secondItem="Og8-IR-HwB" secondAttribute="bottom" constant="4" id="MNf-dm-4M5"/>
+                            <constraint firstItem="Igz-6k-rGg" firstAttribute="top" secondItem="FPG-Qj-ElI" secondAttribute="bottom" constant="16" id="MgU-5K-NaR"/>
                             <constraint firstItem="FPG-Qj-ElI" firstAttribute="leading" secondItem="Og8-IR-HwB" secondAttribute="leading" id="Ovp-Lo-Klk"/>
                             <constraint firstItem="YjM-5c-fFK" firstAttribute="top" secondItem="vIw-kf-tyM" secondAttribute="top" id="RFT-Mu-9bc"/>
                             <constraint firstItem="Img-iB-QPC" firstAttribute="centerY" secondItem="Og8-IR-HwB" secondAttribute="centerY" id="Rsf-D6-ng0"/>
                             <constraint firstItem="Img-iB-QPC" firstAttribute="leading" secondItem="Og8-IR-HwB" secondAttribute="trailing" constant="8" id="YIK-5b-JMX"/>
-                            <constraint firstItem="Igz-6k-rGg" firstAttribute="top" secondItem="FPG-Qj-ElI" secondAttribute="bottom" constant="8" symbolic="YES" id="amp-em-ViF"/>
+                            <constraint firstItem="Igz-6k-rGg" firstAttribute="bottom" secondItem="92U-ch-Nfl" secondAttribute="bottom" id="aR2-o0-tZ2"/>
                             <constraint firstItem="Og8-IR-HwB" firstAttribute="centerY" secondItem="Img-iB-QPC" secondAttribute="centerY" id="cqh-tU-mNx"/>
                             <constraint firstItem="YjM-5c-fFK" firstAttribute="leading" secondItem="92U-ch-Nfl" secondAttribute="leading" id="d19-eX-GLX"/>
                             <constraint firstItem="Og8-IR-HwB" firstAttribute="leading" secondItem="vIw-kf-tyM" secondAttribute="leadingMargin" id="mA2-TA-fqx"/>
                             <constraint firstItem="YjM-5c-fFK" firstAttribute="trailing" secondItem="92U-ch-Nfl" secondAttribute="trailing" id="roi-0f-3Di"/>
                             <constraint firstItem="Og8-IR-HwB" firstAttribute="top" secondItem="YjM-5c-fFK" secondAttribute="bottom" constant="20" id="wrU-bg-Wa5"/>
+                            <constraint firstItem="Igz-6k-rGg" firstAttribute="trailing" secondItem="92U-ch-Nfl" secondAttribute="trailing" id="z5q-3d-iC1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="92U-ch-Nfl"/>
                     </view>
@@ -197,7 +199,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rl9-Rn-3R0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2605.5999999999999" y="-718.29085457271367"/>
+            <point key="canvasLocation" x="2605.5" y="-718.5"/>
         </scene>
         <!--Goups-->
         <scene sceneID="wg7-f3-ORb">
