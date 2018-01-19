@@ -21,8 +21,10 @@ class CreatePostVc: UIViewController {
         
         textField.delegate = self
         sendButton.bindToKeyboard()
-
-        
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.emailLabel.text = Auth.auth().currentUser?.email
     }
 //Actions
     @IBAction func sendbuttopressed(_ sender: Any) {

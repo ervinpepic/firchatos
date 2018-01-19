@@ -44,8 +44,12 @@ extension FeedVc: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "feedCell") as? FeedCell else { return UITableViewCell() }
         let image = UIImage(named: "defaultProfileImage")
+        
         let message = messageArray[indexPath.row]
-        cell.configureCell(profileImage: image!, email: message.senderId, content: message.content)
+        
+        DataService.instance.getUsername(forUid: message.senderId) { (returnedUsername) in
+            cell.configureCell(profileImage: image!, email: returnedUsername, content: message.content)
+        }
         return cell
     }
 }
