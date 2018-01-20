@@ -21,6 +21,8 @@
 		A6B6ED5F200CEF5600A22F29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B6ED5D200CEF5600A22F29 /* LaunchScreen.storyboard */; };
 		A6BD7D472010EEE40073C356 /* CreatePostVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BD7D462010EEE40073C356 /* CreatePostVc.swift */; };
 		A6BD7D492010FE1D0073C356 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BD7D482010FE1D0073C356 /* UIViewExtensions.swift */; };
+		A6BF3FBE201284E600218111 /* CreateGroupsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BF3FBD201284E600218111 /* CreateGroupsVc.swift */; };
+		A6BF3FC0201286F700218111 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BF3FBF201286F700218111 /* UserCell.swift */; };
 		A6DED0B6200E43E6009DF14D /* AuthVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DED0B5200E43E6009DF14D /* AuthVc.swift */; };
 		A6DED0B8200E441C009DF14D /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DED0B7200E441C009DF14D /* LoginVc.swift */; };
 		A6DF78EE200FC7B200493E3F /* MeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DF78ED200FC7B200493E3F /* MeVc.swift */; };
@@ -47,6 +49,8 @@
 		A6B6ED60200CEF5600A22F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6BD7D462010EEE40073C356 /* CreatePostVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVc.swift; sourceTree = "<group>"; };
 		A6BD7D482010FE1D0073C356 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		A6BF3FBD201284E600218111 /* CreateGroupsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVc.swift; sourceTree = "<group>"; };
+		A6BF3FBF201286F700218111 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		A6DED0B5200E43E6009DF14D /* AuthVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVc.swift; sourceTree = "<group>"; };
 		A6DED0B7200E441C009DF14D /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
 		A6DF78ED200FC7B200493E3F /* MeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVc.swift; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 				A6DED0B7200E441C009DF14D /* LoginVc.swift */,
 				A6DF78ED200FC7B200493E3F /* MeVc.swift */,
 				A6BD7D462010EEE40073C356 /* CreatePostVc.swift */,
+				A6BF3FBD201284E600218111 /* CreateGroupsVc.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 				A64B618C200E46C70033F62B /* InsetTextField.swift */,
 				A64B618E200E495B0033F62B /* ShaddowView.swift */,
 				A637C97E20113A3F00E9A8A4 /* FeedCell.swift */,
+				A6BF3FBF201286F700218111 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -311,12 +317,14 @@
 				A6B6ED57200CEF5600A22F29 /* GroupsVc.swift in Sources */,
 				A60F1461200EAB110083115C /* AuthService.swift in Sources */,
 				A6DED0B8200E441C009DF14D /* LoginVc.swift in Sources */,
+				A6BF3FC0201286F700218111 /* UserCell.swift in Sources */,
 				A6BD7D472010EEE40073C356 /* CreatePostVc.swift in Sources */,
 				A6B6ED53200CEF5600A22F29 /* AppDelegate.swift in Sources */,
 				A6B6ED55200CEF5600A22F29 /* FeedVc.swift in Sources */,
 				A64B618D200E46C70033F62B /* InsetTextField.swift in Sources */,
 				A6BD7D492010FE1D0073C356 /* UIViewExtensions.swift in Sources */,
 				A6B61BDE200D1CAD0095C991 /* DataService.swift in Sources */,
+				A6BF3FBE201284E600218111 /* CreateGroupsVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
