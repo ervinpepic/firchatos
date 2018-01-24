@@ -463,9 +463,9 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
-                                            <outlet property="content" destination="xkf-kg-7zU" id="bHU-ya-yCL"/>
-                                            <outlet property="email" destination="GU1-r3-rB8" id="iwR-eY-ToT"/>
-                                            <outlet property="profileImage" destination="UQK-QI-9tI" id="Ro7-j6-lu1"/>
+                                            <outlet property="content" destination="xkf-kg-7zU" id="HTu-Ad-oqw"/>
+                                            <outlet property="email" destination="GU1-r3-rB8" id="VJI-9E-235"/>
+                                            <outlet property="profileImage" destination="UQK-QI-9tI" id="Cc3-2Q-voX"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
