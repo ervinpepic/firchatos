@@ -49,4 +49,13 @@ extension GroupsVc: UITableViewDelegate, UITableViewDataSource {
         cell.configureCell(title: group.groupTitle, description: group.groupDesc, memberCount: group.memberCount)
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let groupFeedVc = storyboard?.instantiateViewController(withIdentifier: "GroupFeedVc") as? GroupFeedVc else { return }
+        groupFeedVc.initGroupData(forGroup: groupsArray[indexPath.row])
+        present(groupFeedVc, animated: true, completion: nil)
+    }
 }
+
+
+
