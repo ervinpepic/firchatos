@@ -14,6 +14,7 @@
 		A64B618D200E46C70033F62B /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64B618C200E46C70033F62B /* InsetTextField.swift */; };
 		A64B618F200E495B0033F62B /* ShaddowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64B618E200E495B0033F62B /* ShaddowView.swift */; };
 		A64BD21720121EC600997B35 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64BD21620121EC600997B35 /* Messages.swift */; };
+		A64C2462201955AC00875AE3 /* UIVIewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64C2461201955AC00875AE3 /* UIVIewControllerExtensions.swift */; };
 		A67E37BC2016A0AB00CB2CF7 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67E37BB2016A0AB00CB2CF7 /* GroupFeedCell.swift */; };
 		A67E37BE2016A15C00CB2CF7 /* GroupFeedVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67E37BD2016A15C00CB2CF7 /* GroupFeedVc.swift */; };
 		A6B61BDE200D1CAD0095C991 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B61BDD200D1CAD0095C991 /* DataService.swift */; };
@@ -44,6 +45,7 @@
 		A64B618C200E46C70033F62B /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		A64B618E200E495B0033F62B /* ShaddowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaddowView.swift; sourceTree = "<group>"; };
 		A64BD21620121EC600997B35 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		A64C2461201955AC00875AE3 /* UIVIewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIewControllerExtensions.swift; sourceTree = "<group>"; };
 		A67E37BB2016A0AB00CB2CF7 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
 		A67E37BD2016A15C00CB2CF7 /* GroupFeedVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVc.swift; sourceTree = "<group>"; };
 		A6B61BDD200D1CAD0095C991 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				A6BD7D482010FE1D0073C356 /* UIViewExtensions.swift */,
+				A64C2461201955AC00875AE3 /* UIVIewControllerExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				A637C97F20113A3F00E9A8A4 /* FeedCell.swift in Sources */,
 				A6DED0B6200E43E6009DF14D /* AuthVc.swift in Sources */,
 				A646E7A72014F6A900283B32 /* GroupCell.swift in Sources */,
+				A64C2462201955AC00875AE3 /* UIVIewControllerExtensions.swift in Sources */,
 				A64BD21720121EC600997B35 /* Messages.swift in Sources */,
 				A64B618F200E495B0033F62B /* ShaddowView.swift in Sources */,
 				A67E37BC2016A0AB00CB2CF7 /* GroupFeedCell.swift in Sources */,
